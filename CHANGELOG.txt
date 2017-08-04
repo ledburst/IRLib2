@@ -1,3 +1,23 @@
+Version 2.0.10 July 17, 2017 
+  Unsigned manager overflow problem in Samsung36
+Version 2.09 July 2, 2017 
+  Updated pin numbers for Circuit Playground Express
+  Added 8-bit Sony test to examples/pattern.ino
+Version 2.08 May 18, 2017 
+  Converted MATCH and ABS_MATCH from macros to methods saving
+    over 1K of program space on "dump.ino" for example.
+  Changed the extent of lead out on Sony 8 protocol
+  Made cmdType and cmdData in CYKM protocol public
+Version 2.07 May 5, 2017 
+  Fixed problem with dumpResults related to CYKM.
+  Miscellaneous changes to facilitate integration into
+    Adafruit_CircuitPlayground library.
+Version 2.06 May 5, 2017 
+  Added protocol 12 CYKM. A protocol designed by me Chris Young
+    to facilitate transmission and reception of keyboard and
+    mouse commands. Some documentation in the files. More
+    detailed documentation will be available in the manual
+    soon.
 Version 2.05 April 30, 2017 
   Added support for Adafruit Circuit Playground Express with
     SAMD 21 processor using its built-in IR receiver and transmitter.
